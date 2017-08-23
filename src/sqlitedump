@@ -1,0 +1,6 @@
+cat tables  | while read t; do (sqlite3 brasilfunds.db <<EOF
+.mode insert
+select * from $t;
+EOF) | sed -e "s/INTO table/INTO $t/"
+done
+
