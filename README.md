@@ -9,4 +9,4 @@ O layout dos dados contém também tabelas para um usuário registrar aportes e 
 As views em fundadmin-views.sql são as que entregam insights personalizados (saldo e performance da carteira do usuário) sobre os dados coletados da CETIP e CVM cruzados com a carteira do usuário.
 
 Eu desenvolvi isso em 2013/2014 e rodei o script diariamente por alguns anos.
-A quem se interessar, eu tenho proximadamente 1GB de dados de fundos de investimentos brasileiros que posso passar como um arquivo SQLite.
+A quem se interessar, eu tenho proximadamente 1GB de dados de fundos de investimentos brasileiros que posso passar como um arquivo SQLite. Está [aqui](https://avi.alkalay.net/clipboard/brasilfunds.zip).
